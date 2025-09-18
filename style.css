@@ -1,0 +1,82 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(87, 83, 83);
+}
+
+#cal{
+    width : 600px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 5px;
+}
+.operator{
+    width: 100%;
+    background-color: rgb(237, 178, 69);
+}
+
+.operator:hover{
+    background-color: rgb(218, 154, 37);
+}
+
+.operator:active{
+    background-color: orange;
+}
+
+.opeoperatorBackrator{
+    width: 100%;
+    background-color: rgb(237, 178, 69);
+}
+
+.opoperatorBackerator:hover{
+    background-color: rgb(218, 154, 37);
+}
+
+.operatorBack:active{
+    background-color: orange;
+}
+#display{
+    padding: 10px;
+    font-size: 80px;
+    width: 100%;
+    height: 100px;
+    border: none;
+    background-color: rgb(50, 49, 49);
+    color: white;
+    text-align: left;
+}
+button:hover{
+    background-color: rgb(40, 39, 39);
+}
+button:active{
+        background-color: rgb(34, 32, 32);
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    padding: 25px;
+    background-color: rgb(26, 25, 25);
+}
+.edits {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+    background-color: rgb(26, 25, 25);
+}
+
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 3rem;
+    border: none;
+    background-color: rgb(54, 54, 56);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;  
+}
